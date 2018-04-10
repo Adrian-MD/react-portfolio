@@ -1,51 +1,51 @@
 h1, h2, h3, h4, h5, h6 {
-  font-family: 'Comfortaa', cursive;
+    font-family: 'Comfortaa', cursive;
 }
 body {
-  font-family: 'Maven Pro', sans-serif;
+    font-family: 'Maven Pro', sans-serif;
 }
 
 .uk-logo {
-  font-family: 'Tangerine', cursive;
-  font-family: 'Arizonia', cursive;
-  font-size:50px;
+    font-family: 'Tangerine', cursive;
+    font-family: 'Arizonia', cursive;
+    font-size:50px;
 }
 .uk-logo img {height:100%;}
 .uk-navbar-transparent {}
 
 .vh-max {
-  height: 100vh;
+    height: 100vh;
 }
 
 .uk-background-primary {
-  background-color: #208aae;
+    background-color: #208aae;
 }
 .uk-background-secondary {
-  background-color: #f25f5c;
+    background-color: #f25f5c;
 }
 .uk-background-muted {
-  background-color: #e2e2e2;
+    background-color: #e2e2e2;
 }
 .uk-background-default {
-  background-color: #fcfcfc;
+    background-color: #fcfcfc;
 }
 .uk-background-dark {
-  background-color: #2c3e50
+    background-color: #2c3e50
 }
 .uk-color-primary {
-  color: #208aae;
+    color: #208aae;
 }
 .uk-color-secondary {
-  color: #db2763;
+    color: #db2763;
 }
 .uk-color-muted {
-  color: #e2e2e2;
+    color: #e2e2e2;
 }
 .uk-color-default {
-  color: #fcfcfc;
+    color: #fcfcfc;
 }
 .uk-color-dark {
-  color: #2c3e50
+    color: #2c3e50
 }
 
 .size5 { font-size: 5em; }

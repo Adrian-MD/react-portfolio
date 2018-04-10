@@ -17,4 +17,4 @@ const About = () => {
     );
 }
 
-export default ABout;
+export default About;
