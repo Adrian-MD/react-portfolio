@@ -1,5 +1,7 @@
 import React from 'react';
 import logo from '../logo-concept-square-inverse.png';
+import logo1 from '../calig-dark.png';
+import logo2 from '../calig-light.png';
 
 const Navigation = () => {
     return(
