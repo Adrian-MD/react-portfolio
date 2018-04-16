@@ -12,7 +12,7 @@ const projects = [
         id: 1,
         imageUrl: mysite,
         title: "This Website",
-        desc: "This website was created using React.js to get a better sense of building within the React environment. It also uses Node.js, Express.js, UIKit, FontAwesome, Google Analytics, and Google Captcha. The source code can be found on my GitHub.",
+        desc: "This website was created using React.js to get a better sense of building within the React environment. Source code can be found on my github.",
         proUrl: "#"
     },
     {
