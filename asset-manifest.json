@@ -1,10 +1,16 @@
 {
   "main.css": "static/css/main.e41ff130.css",
   "main.css.map": "static/css/main.e41ff130.css.map",
-  "main.js": "static/js/main.a8553fff.js",
-  "main.js.map": "static/js/main.a8553fff.js.map",
+  "main.js": "static/js/main.ae9c1748.js",
+  "main.js.map": "static/js/main.ae9c1748.js.map",
+  "static/media/at-home-med.png": "static/media/at-home-med.4edef93f.png",
   "static/media/calig-dark.png": "static/media/calig-dark.f5458f72.png",
   "static/media/calig-light.png": "static/media/calig-light.384bfb74.png",
   "static/media/city2.jpg": "static/media/city2.928e829d.jpg",
-  "static/media/data-concept.png": "static/media/data-concept.df760b6c.png"
+  "static/media/data-concept.png": "static/media/data-concept.df760b6c.png",
+  "static/media/face-rec-app.png": "static/media/face-rec-app.f4294e26.png",
+  "static/media/my-site.png": "static/media/my-site.a289388c.png",
+  "static/media/nj-law.png": "static/media/nj-law.0555d375.png",
+  "static/media/quote-gen.png": "static/media/quote-gen.a8cc3e94.png",
+  "static/media/st-johns.png": "static/media/st-johns.bb577cdd.png"
 }
