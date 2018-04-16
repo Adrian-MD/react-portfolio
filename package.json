@@ -6,6 +6,7 @@
     "@fortawesome/fontawesome": "^1.1.5",
     "@fortawesome/fontawesome-free-brands": "^5.0.9",
     "@fortawesome/react-fontawesome": "0.0.18",
+    "body-parser": "^1.18.2",
     "express": "^4.16.3",
     "react": "^16.3.1",
     "react-dom": "^16.3.1",
@@ -16,6 +17,7 @@
     "start": "react-scripts start",
     "build": "react-scripts build",
     "test": "react-scripts test --env=jsdom",
-    "eject": "react-scripts eject"
+    "eject": "react-scripts eject",
+    "homepage" : "http://myname.github.io/myapp"
   }
 }

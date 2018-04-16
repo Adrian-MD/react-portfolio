@@ -13,6 +13,9 @@ body {
 .uk-logo img {height:100%;}
 .uk-navbar-transparent {}
 
+.no-border {
+  border: none;
+}
 .vh-max {
   height: 100vh;
 }

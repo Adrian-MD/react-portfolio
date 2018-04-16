@@ -2,13 +2,13 @@ import React from 'react';
 
 const Toolcard = ({ id, name, icon, desc }) => {
     return (
-        <div className="uk-container uk-flex uk-flex-around toolset">
-            <div className="uk-background-dark uk-dark uk-flex uk-flex-middle uk-flex-center uk-flex-around tool-wrapper">
-                <div className="uk-padding-small size5 tool-icon">
+        <div className="uk-flex uk-flex-around toolset">
+            <div className="uk-background-dark uk-dark uk-flex uk-width-expand tool-wrapper">
+                <div className="uk-padding-small uk-flex uk-flex-middle size5 tool-icon">
                     <i className={icon}></i>
                 </div>
-                <div className="uk-padding-small tool-content">
-                    <h4 class="uk-heading-line uk-"><span>{name}</span></h4>
+                <div className="uk-padding-small uk-flex-1 tool-content">
+                    <h4 class="uk-heading-line"><span>{name}</span></h4>
                     {
                         desc.map((use, i) => {
                             return (

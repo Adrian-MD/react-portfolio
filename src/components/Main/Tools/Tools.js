@@ -15,7 +15,7 @@ const toolsArray = [
     {
         toolID: 2,
         toolName: "CSS3",
-        toolIconCSS: "fab fa-html5",
+        toolIconCSS: "fab fa-css3-alt",
         toolUse: [
             "Responsive Design",
             "Responsive Makeovers",
@@ -26,7 +26,7 @@ const toolsArray = [
     {
         toolID: 3,
         toolName: "JavaScript",
-        toolIconCSS: "fab fa-html5",
+        toolIconCSS: "fab fa-js",
         toolUse: [
             "ES6",
             "Object Oriented Programming",
@@ -38,7 +38,7 @@ const toolsArray = [
     {
         toolID: 4,
         toolName: "Git/Github",
-        toolIconCSS: "fab fa-html5",
+        toolIconCSS: "fab fa-github",
         toolUse: [
             "Collaboration",
             "Git Command Line",
@@ -48,7 +48,7 @@ const toolsArray = [
     {
         toolID: 5,
         toolName: "React JS",
-        toolIconCSS: "fab fa-html5",
+        toolIconCSS: "fab fa-react",
         toolUse: [
             "JavaScript Library",
             "Reusable Component-Based Code",
@@ -58,7 +58,7 @@ const toolsArray = [
     {
         toolID: 6,
         toolName: "Node JS",
-        toolIconCSS: "fab fa-html5",
+        toolIconCSS: "fab fa-node",
         toolUse: [
             "Asynchronous JavaScript Runtime",
             "Scalable Network Apps"
@@ -67,7 +67,7 @@ const toolsArray = [
     {
         toolID: 7,
         toolName: "Terminal",
-        toolIconCSS: "fab fa-html5",
+        toolIconCSS: "fa fa-terminal",
         toolUse: [
             "Linux Command Line",
             "Bash, NPM, Git"
@@ -76,7 +76,7 @@ const toolsArray = [
     {
         toolID: 8,
         toolName: "Slack",
-        toolIconCSS: "fab fa-html5",
+        toolIconCSS: "fab fa-slack",
         toolUse: [
             "Collaboration",
             "Communication"
@@ -85,7 +85,7 @@ const toolsArray = [
     {
         toolID: 9,
         toolName: "Trello",
-        toolIconCSS: "fab fa-html5",
+        toolIconCSS: "fab fa-trello",
         toolUse: [
             "Web-based Project Management",
             "Productivity",
@@ -95,7 +95,7 @@ const toolsArray = [
     {
         toolID: 10,
         toolName: "Cloud Technologies",
-        toolIconCSS: "fab fa-html5",
+        toolIconCSS: "fa fa-cloud",
         toolUse: [
             "File-Sharing",
             "Web-Based Productivity"
@@ -104,7 +104,7 @@ const toolsArray = [
     {
         toolID: 11,
         toolName: "WordPress",
-        toolIconCSS: "fab fa-html5",
+        toolIconCSS: "fab fa-wordpress",
         toolUse: [
             "Websites",
             "Theme Manipulation",
@@ -114,7 +114,7 @@ const toolsArray = [
     {
         toolID: 12,
         toolName: "Free-Code-Camp",
-        toolIconCSS: "fab fa-html5",
+        toolIconCSS: "fab fa-free-code-camp",
         toolUse: [
             "Online Education Resource"
         ]
@@ -126,8 +126,8 @@ const Tools = () => {
         <div id="tools" uk-scrollspy="target: > div; cls:uk-animation-fade; delay: 500" className="uk-section uk-background-primary uk-light tools">
             <div className="uk-container">
                 <h1 className="uk-heading-line uk-text-center"><span>Tools</span></h1>
-                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Nulla voluptate dolorem voluptatem rem mollitia nobis aliquam possimus corporis laudantium? Provident qui doloribus accusamus quibusdam dignissimos nobis ipsum quam laudantium facere.</p>
-                <div className="container uk-padding uk-padding-remove-bottom uk-child-width-1-3@m uk-grid" uk-grid="true">
+                <p>Listed below, you will find some of the many tools and languages that I have become familiar with and used in my work. Please note, just because you do not see something listed does not mean that I have no experience with it or cannot learn it quickly!</p>
+                <div className="container uk-grid uk-grid-small uk-child-width-1-2@s uk-child-width-1-3@m" uk-grid="true">
                     {
                         toolsArray.map((tool, i) => {
                             return (
