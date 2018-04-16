@@ -132,7 +132,7 @@ const Tools = () => {
                         toolsArray.map((tool, i) => {
                             return (
                                 <Toolcard 
-                                    key={tool.toolID} 
+                                    key={tool.toolID}
                                     id={tool.toolID} 
                                     name={tool.toolName} 
                                     icon={tool.toolIconCSS} 

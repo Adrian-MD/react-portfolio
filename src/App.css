@@ -60,3 +60,70 @@ body {
 .uk-card { background-color: #fff; }
 .grow { transition: all .2s ease-in-out; }
 .grow:hover { transform: scale(1.1); }
+
+.work .uk-card-media-top {
+  max-height: 300px;
+  overflow:hidden;
+}
+
+.uk-panel {
+  max-height:400px;
+  overflow:hidden;
+}
+
+.uk-light .uk-dotnav>*>* {
+  border-color: #2c3e50;
+}
+.uk-light .uk-dotnav>.uk-active>* {
+  background-color: #2c3e50;
+}
+
+
+/**Scrollbar**/
+/* width */
+.work .uk-card-content::-webkit-scrollbar {
+  width: 5px;
+}
+
+/* Track */
+.work .uk-card-content::-webkit-scrollbar-track {
+  box-shadow: inset 0 0 5px grey; 
+  border-radius: 5px;
+}
+
+/* Handle */
+.work .uk-card-content::-webkit-scrollbar-thumb {
+  background: #fcfcfc; 
+  border-radius: 5px;
+}
+
+/* Handle on hover */
+.work .uk-card-content::-webkit-scrollbar-thumb:hover {
+  background: #fcfcfc; 
+}
+/**End Scrollbar**/
+
+
+/**Scrollbar**/
+/* width */
+::-webkit-scrollbar {
+  width: 10px;
+}
+
+/* Track */
+::-webkit-scrollbar-track {
+  box-shadow: inset 0 0 5px grey; 
+  border-radius: 5px;
+}
+
+/* Handle */
+::-webkit-scrollbar-thumb {
+  background: #2c3e50; 
+  border-radius: 5px;
+}
+
+/* Handle on hover */
+::-webkit-scrollbar-thumb:hover {
+  background: #2c3e50; 
+}
+/**End Scrollbar**/

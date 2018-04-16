@@ -42,21 +42,21 @@ const Navigation = () => {
                         {
                             navlinks.map((nav, i) => {
                                 return (
-                                    <li className=""><a href={nav.link} uk-scroll={nav.scroll}>{nav.title}</a></li>
+                                    <li key={nav.id} className=""><a href={nav.link} uk-scroll={nav.scroll}>{nav.title}</a></li>
                                 )
                             })
                         }
                     </ul>
-                    <div class="uk-inline uk-hidden@m">
-                        <button class="uk-button uk-button-default no-border" type="button">
-                            <a href="#" class="uk-link-reset" uk-icon="icon: menu" ratio="1.5"></a>
+                    <div className="uk-inline uk-hidden@m">
+                        <button className="uk-button uk-button-default no-border" type="button">
+                            <a href="#" className="uk-link-reset" uk-icon="icon: menu" ratio="1.5"></a>
                         </button>
                         <div uk-dropdown="pos: bottom-justify">
-                            <ul class="uk-nav uk-dropdown-nav" uk-scrollspy-nav="closest: li; scroll: true">
+                            <ul className="uk-nav uk-dropdown-nav" uk-scrollspy-nav="closest: li; scroll: true">
                                 {
                                     navlinks.map((nav, i) => {
                                         return (
-                                            <li className="uk-h6 uk-margin-small grow"><a href={nav.link} uk-scroll={nav.scroll}>{nav.title}</a></li>
+                                            <li key={nav.id} className="uk-h6 uk-margin-small grow"><a href={nav.link} uk-scroll={nav.scroll}>{nav.title}</a></li>
                                         )
                                     })
                                 }

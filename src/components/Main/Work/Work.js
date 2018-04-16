@@ -1,5 +1,6 @@
 import React from 'react';
 import WorkCard from './WorkCard.js';
+import WorkCardSmall from './WorkCardSmall.js';
 import mysite from '../../images/my-site.png';
 import njlaw from '../../images/nj-law.png';
 import stjohns from '../../images/st-johns.png';
@@ -64,20 +65,42 @@ const Work = () => {
             <div className="uk-container">
                 <h1 className="uk-heading-line uk-text-center"><span>Work</span></h1>
                 <div className="container uk-padding uk-padding-remove-bottom">
-                    <div className="uk-grid-small uk-child-width-1-2@s uk-child-width-1-3@m uk-child-width-1-3@l" uk-grid="true">
-                        {
-                            projects.map((project, i) => {
-                                return (
-                                    <WorkCard 
-                                        key={project.id} 
-                                        imageUrl={project.imageUrl} 
-                                        title={project.title} 
-                                        desc={project.desc} 
-                                        proUrl={project.proUrl} 
-                                    />
-                                );
-                            })
-                        }
+                    <div class="uk-position-relative uk-visible-toggle uk-visible@s uk-light" uk-slider="clsActivated: uk-transition-active; center: true">
+                        <ul class="uk-slider-items uk-grid">
+                            {
+                                projects.map((project, i) => {
+                                    return (
+                                        <WorkCard 
+                                            key={project.id} 
+                                            imageUrl={project.imageUrl} 
+                                            title={project.title} 
+                                            desc={project.desc} 
+                                            proUrl={project.proUrl} 
+                                        />
+                                    );
+                                })
+                            }
+                        </ul>
+                        <a class="uk-position-center-left uk-position-small uk-hidden-hover" href="#" uk-slidenav-previous="true" uk-slider-item="previous"></a>
+                        <a class="uk-position-center-right uk-position-small uk-hidden-hover" href="#" uk-slidenav-next="true" uk-slider-item="next"></a>
+                        <ul class="uk-slider-nav uk-dotnav uk-flex-center uk-margin"></ul>
+                    </div>
+                    <div className="container uk-padding uk-padding-remove-bottom uk-hidden@s">
+                        <div className="uk-grid-small uk-child-width-1-2@s uk-child-width-1-3@m uk-child-width-1-3@l" uk-grid="true">
+                            {
+                                projects.map((project, i) => {
+                                    return (
+                                        <WorkCardSmall 
+                                            key={project.id} 
+                                            imageUrl={project.imageUrl} 
+                                            title={project.title} 
+                                            desc={project.desc} 
+                                            proUrl={project.proUrl} 
+                                        />
+                                    );
+                                })
+                            }
+                        </div>
                     </div>
                 </div>
             </div>
