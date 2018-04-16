@@ -4,7 +4,7 @@ import mysite from '../../images/my-site.png';
 import njlaw from '../../images/nj-law.png';
 import stjohns from '../../images/st-johns.png';
 import athome from '../../images/at-home-med.png';
-import facerec from '../../imagesface-rec-app.png';
+import facerec from '../../images/face-rec-app.png';
 import quotegen from '../../images/quote-gen.png';
 
 const projects = [
