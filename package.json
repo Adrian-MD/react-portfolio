@@ -8,16 +8,19 @@
     "@fortawesome/react-fontawesome": "0.0.18",
     "body-parser": "^1.18.2",
     "express": "^4.16.3",
+    "gh-pages": "^1.1.0",
     "react": "^16.3.1",
     "react-dom": "^16.3.1",
     "react-scripts": "1.1.4",
     "uikit": "^3.0.0-beta.42"
   },
   "scripts": {
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d build",
     "start": "react-scripts start",
     "build": "react-scripts build",
     "test": "react-scripts test --env=jsdom",
-    "eject": "react-scripts eject",
-    "homepage" : "http://myname.github.io/myapp"
-  }
+    "eject": "react-scripts eject"
+  },
+  "homepage": "http://Adrian-MD.github.io/react-portfolio"
 }
