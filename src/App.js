@@ -3,6 +3,7 @@ import './App.css';
 import Header from './components/Header/Header.js';
 import Main from './components/Main/Main.js';
 import Footer from './components/Footer/Footer.js';
+import Social from './components/Social/Social.js';
 import fontawesome from '@fortawesome/fontawesome';
 import FontAwesomeIcon from '@fortawesome/react-fontawesome';
 import brands from '@fortawesome/fontawesome-free-brands';
@@ -21,6 +22,7 @@ class App extends Component {
     return (
       <div className="App">
         <Header />
+        <Social />
         <Main />
         <Footer />
       </div>

@@ -11,7 +11,7 @@ const WorkCardSmall = ({ imageUrl, title, desc, proUrl }) => {
           <div className="uk-card-body">
               <h3 className="uk-card-title">{title}</h3>
               <p>{desc}</p>
-              <a href={proUrl} className="uk-button uk-button-link">Project Link</a>
+              <a href={proUrl} className="uk-button uk-button-dark uk-light uk-align-right">Project Link</a>
           </div>
         </div>
       </div>
