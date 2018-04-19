@@ -48,6 +48,10 @@ class Form extends Component {
                         placeholder="Message" 
                         required>
                     </textarea>
+                    <input 
+                        type="hidden" 
+                        name="contact-form" 
+                        value="contact-form" />
                     <button 
                         id="" 
                         className="uk-button uk-align-center uk-button-primary uk-width-1-1 g-recaptcha" 

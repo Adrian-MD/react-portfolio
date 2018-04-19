@@ -29,5 +29,48 @@
       You need to enable JavaScript to run this app.
     </noscript>
     <div id="root"></div>
+      <!-- A little help for the Netlify post-processing bots -->
+      <form name="contact" netlify netlify-honeypot="bot-field" hidden>
+        <form name="contact-form" netlify netlify-honeypot="bot-field" hidden>
+          <input 
+              id="name" 
+              class="uk-input uk-width-1-1@s" 
+              type="text" 
+              name="name" 
+              placeholder="Name" 
+              required
+          />
+          <input 
+              id="company" 
+              class="uk-input uk-width-1-1@s" 
+              type="text" 
+              name="company" 
+              placeholder="Company" 
+          />
+          <input 
+              id="phone" 
+              class="uk-input uk-width-1-1@s" 
+              type="tel" 
+              name="phone" 
+              placeholder="Phone" 
+          />
+          <input 
+              id="email" 
+              class="uk-input uk-width-1-1@s" 
+              type="email" 
+              name="email" 
+              placeholder="Email" 
+              required
+          />
+          <textarea 
+              id="message" 
+              class="uk-textarea" 
+              name="message" 
+              cols="30" 
+              rows="10" 
+              placeholder="Message" 
+              required>
+          </textarea>
+      </form>
   </body>
 </html>
