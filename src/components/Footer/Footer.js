@@ -1,6 +1,6 @@
 import React from 'react';
 import Form from '../Form/Form.js';
-import ContactForm from '../Form/ContactForm.JS';
+import ContactForm from '../Form/ContactForm.js';
 import Copyright from './Copyright.js';
 
 class Footer extends React.Component {
