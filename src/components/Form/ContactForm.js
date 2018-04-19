@@ -37,12 +37,11 @@ class ContactForm extends React.Component {
         id="contact-form" 
         onSubmit={this.handleSubmit} 
         className="uk-grid-small uk-width-1-2@s uk-align-center contact-form" 
-        acceptCharset="UTF-8" 
-        action="thank-you" 
-        method="POST" 
+        // acceptCharset="UTF-8"  
+        // method="POST" 
         autoComplete="on" 
         uk-grid="true" 
-        netlify
+        // netlify
       >
       <input 
           id="name" 
