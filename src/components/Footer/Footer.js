@@ -1,5 +1,6 @@
 import React from 'react';
 import Form from '../Form/Form.js';
+import ContactForm from '../Form/ContactForm.JS';
 import Copyright from './Copyright.js';
 
 class Footer extends React.Component {
@@ -10,7 +11,7 @@ class Footer extends React.Component {
                     <div className="uk-container">
                         <h1 className="uk-heading-line uk-text-center"><span>Contact Me</span></h1>
                         <div className="container uk-padding uk-padding-remove-bottom">
-                            <Form />
+                            <ContactForm />
                         </div>
                     </div>
                     <Copyright />
