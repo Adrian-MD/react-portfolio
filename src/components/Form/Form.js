@@ -8,7 +8,8 @@ class Form extends Component {
         return(
             <div>
                 <script src="https://www.google.com/recaptcha/api.js" async defer></script>
-                <form id="contact-form" className="uk-grid-small uk-width-1-2@s uk-align-center contact-form" acceptCharset="UTF-8" action="thank-you" method="POST" autoComplete="on" uk-grid="true" netlify>
+                <script src="https://usebasin.com/f/8c00960f41ee/ahoy.js" async defer></script>
+                <form id="contact-form" className="uk-grid-small uk-width-1-2@s uk-align-center contact-form" acceptCharset="UTF-8" action="https://usebasin.com/f/8c00960f41ee" method="POST" autoComplete="on" uk-grid="true" netlify>
                     <input 
                         id="name" 
                         className="uk-input uk-width-1-1@s" 
