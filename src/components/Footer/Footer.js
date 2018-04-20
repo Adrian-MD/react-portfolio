@@ -11,7 +11,7 @@ class Footer extends React.Component {
                     <div className="uk-container">
                         <h1 id="contact" className="uk-heading-line uk-text-center"><span>Contact Me</span></h1>
                         <div className="container uk-padding uk-padding-remove-bottom">
-                            <ContactForm />
+                            <Form />
                         </div>
                     </div>
                     <Copyright />
