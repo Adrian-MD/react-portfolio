@@ -9,7 +9,9 @@
                 dataType: "json",
                 processData: false,
                 contentType: false,
-                Accept: "application/json"
+                headers: {
+                  "Accept": "application/json"
+                }
                 success: function(response){
                     if(response.status == "success"){
                         alert("We received your submission, thank you!");
