@@ -5,7 +5,13 @@
             $.ajax({
                 method: "POST",
                 url: "https://usebasin.com/f/8c00960f41ee",
-                data: new FormData(this),
+                data: {
+                  name: req.body.name,
+                  company: req.body.company,
+                  phone: req.body.phone,
+                  email: req.body.email,
+                  message: req.body.message
+                },
                 dataType: "json",
                 processData: false,
                 contentType: false,
