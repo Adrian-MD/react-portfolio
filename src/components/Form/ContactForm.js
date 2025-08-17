@@ -1,6 +1,4 @@
-import React from 'react';
-import Component from 'react';
-import ReactDOM from 'react-dom';
+import React, { Component } from 'react';
 
 const encode = (data) => {
   return Object.keys(data)
@@ -8,7 +6,7 @@ const encode = (data) => {
       .join("&");
 }
 
-class ContactForm extends React.Component {
+class ContactForm extends Component {
   constructor(props) {
     super(props);
     this.state = { name: "",company: "", phone: "", email: "", message: "" };
@@ -110,5 +108,5 @@ class ContactForm extends React.Component {
   }
 }
 
-ReactDOM.render(<ContactForm />, document.getElementById("root"));
 export default ContactForm;
+
